@@ -64,7 +64,7 @@
 
 
     //___________________________________ FUNCIONES ______________________________________
-    echo "<hr>";
+
 
     function compararNombre($parametro){
         //comprobar que existe el valor que nos llega, por si no llega nada
@@ -75,11 +75,8 @@
         }
         return $nombre;
     }
-
-    //funciones de flecha
-    
-
     //_____________________________________ BUCLES FOR ______________________________________
+    echo "<hr>";
     $personas = ["Iris","Maria","Marta"];
     
     echo "<br>";
@@ -110,4 +107,5 @@
         echo "num while: ".$num;
         $num++;
     }
+
 ?>
